@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.employeeapi.utilities.Listeners"></listener>
+    </listeners>
+    <test verbose="3" preserve-order="true" name="/Users/santoshsrinivas/Documents/restassured">
+        <classes>
+<!--            <class name="com.employeeapi.testCases.TC001_Get_All_Employees">-->
+<!--                <methods><include name="checkResponseBody"/><include name="checkStatusCode"/><include name="checkResponseTime"/><include name="checkStatusLine"/><include name="checkContentType"/><include name="checkServerType"/><include name="checkContentEncoding"/><include name="checkContentLenght"/><include name="checkCokies"/></methods></class>-->
+<!--            <class name="com.employeeapi.testCases.TC002_Get_Single_Employee_Record"><methods><include name="checkResponseBody"/><include name="checkStatusCode"/><include name="checkResponseTime"/></methods></class>-->
+<!--            <class name="com.employeeapi.testCases.TC003_Post_Employee_Record"><methods><include name="checkResponseBody"/><include name="checkStatus"/></methods></class>-->
+<!--            <class name="com.employeeapi.testCases.TC004_Put_Employee_Record"><methods><include name="checkResponseBody"/></methods></class>-->
+<!--            <class name="com.employeeapi.testCases.TC005_Delete_Employee_Record"><methods><include name="checkResponseBody"/></methods></class>-->
+<!--            <class name="com.restassured.TC001_GET_Request"><methods><include name="getWeatherDetails"/></methods></class>-->
+            <class name="com.restassured.TC001_POST_Request"><methods><include name="registrationSuccessfulAPI"/></methods></class>
+            <class name="com.restassured.TC003_GET_Request"><methods><include name="googleMapTest"/></methods></class>
+            <class name="com.restassured.TC004_GET_Request"><methods><include name="getWeatherDetails"/></methods></class>
+            <class name="com.restassured.TC005_GET_Request"><methods><include name="validateResponse"/></methods></class>
+            <class name="com.restassured.TC006_GET_Request"><methods><include name="getResponse"/></methods></class>
+            <class name="com.restassured.TC007_GET_Request"><methods><include name="userAuth"/></methods></class>
+            <class name="datadriventesting.DataDriven_AddEmp"><methods><include name="addNewEmp"/></methods></class>
+        </classes>
+    </test>
+</suite>

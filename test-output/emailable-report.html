@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">All Test Suite</th></tr>
+<tr><td><a href="#t0">/Users/santoshsrinivas/Documents/restassured</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">11,085</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">/Users/santoshsrinivas/Documents/restassured &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.restassured.TC001_POST_Request</td><td><a href="#m0">registrationSuccessfulAPI</a></td><td rowspan="1">1589088024393</td><td rowspan="1">2684</td></tr><tr><th colspan="4">/Users/santoshsrinivas/Documents/restassured &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.restassured.TC003_GET_Request</td><td><a href="#m1">googleMapTest</a></td><td rowspan="1">1589088027098</td><td rowspan="1">525</td></tr><tr class="passedodd"><td rowspan="1">com.restassured.TC004_GET_Request</td><td><a href="#m2">getWeatherDetails</a></td><td rowspan="1">1589088027624</td><td rowspan="1">449</td></tr><tr class="passedeven"><td rowspan="1">com.restassured.TC005_GET_Request</td><td><a href="#m3">validateResponse</a></td><td rowspan="1">1589088028074</td><td rowspan="1">716</td></tr><tr class="passedodd"><td rowspan="1">com.restassured.TC006_GET_Request</td><td><a href="#m4">getResponse</a></td><td rowspan="1">1589088028791</td><td rowspan="1">799</td></tr><tr class="passedeven"><td rowspan="1">com.restassured.TC007_GET_Request</td><td><a href="#m5">userAuth</a></td><td rowspan="1">1589088029591</td><td rowspan="1">653</td></tr><tr class="passedodd"><td rowspan="4">datadriventesting.DataDriven_AddEmp</td><td><a href="#m6">addNewEmp</a></td><td rowspan="4">1589088034385</td><td rowspan="4">912</td></tr><tr class="passedodd"><td><a href="#m7">addNewEmp</a></td></tr><tr class="passedodd"><td><a href="#m8">addNewEmp</a></td></tr><tr class="passedodd"><td><a href="#m9">addNewEmp</a></td></tr></tbody>
+</table>
+<h2>/Users/santoshsrinivas/Documents/restassured</h2><h3 id="m0">com.restassured.TC001_POST_Request#registrationSuccessfulAPI</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [OPERATION_SUCCESS] but found [null]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at com.restassured.TC001_POST_Request.registrationSuccessfulAPI(TC001_POST_Request.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.restassured.TC003_GET_Request#googleMapTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.restassured.TC004_GET_Request#getWeatherDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.restassured.TC005_GET_Request#validateResponse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.restassured.TC006_GET_Request#getResponse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.restassured.TC007_GET_Request#userAuth</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">datadriventesting.DataDriven_AddEmp#addNewEmp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ABCD4</td><td>1001</td><td>15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">datadriventesting.DataDriven_AddEmp#addNewEmp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ABCD3</td><td>1001</td><td>15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">datadriventesting.DataDriven_AddEmp#addNewEmp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ABCD2</td><td>1001</td><td>15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">datadriventesting.DataDriven_AddEmp#addNewEmp</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ABCD1</td><td>1001</td><td>15</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

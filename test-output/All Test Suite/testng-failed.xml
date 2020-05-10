@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="com.employeeapi.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="/Users/santoshsrinivas/Documents/restassured(failed)">
+    <classes>
+      <class name="com.restassured.TC001_POST_Request">
+        <methods>
+          <include name="registrationSuccessfulAPI"/>
+        </methods>
+      </class> <!-- com.restassured.TC001_POST_Request -->
+    </classes>
+  </test> <!-- /Users/santoshsrinivas/Documents/restassured(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
