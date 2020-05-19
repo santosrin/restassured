@@ -115,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/restassured/TC001_POST_Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="38" column="60" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="60" />
+            <state relative-caret-position="391">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -478,9 +478,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="311" width="1481" height="838" extended-state="1" />
+    <frame x="63" y="23" width="1481" height="838" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494788" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -495,7 +496,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Graph Database Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2855228" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2855228" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32985657" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3297587" />
@@ -748,8 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/restassured/TC001_POST_Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="38" column="60" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="60" />
+        <state relative-caret-position="391">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
